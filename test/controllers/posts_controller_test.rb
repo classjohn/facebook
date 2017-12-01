@@ -6,7 +6,7 @@ class PostsControllerTest < ActionController::TestCase
   end
 
   test "should get index" do
-    get :index
+    get :index # url이 작동하는지
     assert_response :success
     assert_not_nil assigns(:posts)
   end
@@ -45,5 +45,10 @@ class PostsControllerTest < ActionController::TestCase
     end
 
     assert_redirected_to posts_path
+  end
+
+  # 댓글 잘 달리는지 알아보는 테스트
+  test "should create comment" do
+    
   end
 end

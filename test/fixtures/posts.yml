@@ -3,14 +3,14 @@
 one:
   title: <%= Faker::HarryPotter.location %>
   content: <%= Faker::HarryPotter.quote %>
-  user_id:
+  user_id: 1
 
 two:
   title: MyString
   content: MyText
-  user_id:
+  user_id: 1
 
 three:
   title: My third fixtures
   content: ohohohohoh
-  user_id:
+  user_id: 1
